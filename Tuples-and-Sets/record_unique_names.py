@@ -1,0 +1,1 @@
+print("\n".join(set((input() for entry in range(int(input()))))))
