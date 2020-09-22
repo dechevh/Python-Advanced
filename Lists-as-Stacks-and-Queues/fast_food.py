@@ -2,7 +2,7 @@ from _collections import deque
 
 total_qty = int(input())
 orders_queue = deque(map(int, input().split(" ")))
-# orders_queue = deque([int(x) for x in input().split(" ")])
+# orders_queue = deque([int(x) for x in input().split(" ")]) # with comprehension
 
 print(max(orders_queue))
 
