@@ -1,6 +1,5 @@
 def kwargs_length(**kwargs):
-    pass
-
+    return len(kwargs)
 
 
 dictionary = {'name': 'Peter', 'age': 25}
